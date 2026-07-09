@@ -145,10 +145,8 @@ export const runAiTool = createServerFn({ method: "POST" })
     try {
       const { text } = await generateText({
         model,
-        messages: [
-          { role: "system", content: system },
-          { role: "user", content: data.input },
-        ],
+        system,
+        prompt: data.input,
       });
       return { text };
     } catch (err) {
