@@ -61,11 +61,8 @@ function Landing() {
             <Button variant="ghost" size="icon" onClick={toggle} aria-label="Toggle theme">
               {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </Button>
-            <Button asChild variant="ghost" className="hidden sm:inline-flex">
-              <Link to="/auth">Sign in</Link>
-            </Button>
             <Button asChild className="bg-gradient-primary shadow-soft">
-              <Link to="/auth">Get started</Link>
+              <Link to="/dashboard">Open app</Link>
             </Button>
           </div>
         </div>
@@ -102,7 +99,7 @@ function Landing() {
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
               <Button asChild size="lg" className="bg-gradient-primary shadow-elegant">
-                <Link to="/auth">Get started free <ArrowRight className="ml-2 h-4 w-4" /></Link>
+                <Link to="/dashboard">Get started free <ArrowRight className="ml-2 h-4 w-4" /></Link>
               </Button>
               <Button asChild size="lg" variant="outline">
                 <a href="#features">Explore features</a>
@@ -172,7 +169,7 @@ function Landing() {
               Join students building better habits, sharper communication, and stronger employability.
             </p>
             <Button asChild size="lg" variant="secondary" className="mt-8">
-              <Link to="/auth">Start learning <ArrowRight className="ml-2 h-4 w-4" /></Link>
+              <Link to="/dashboard">Start learning <ArrowRight className="ml-2 h-4 w-4" /></Link>
             </Button>
           </div>
         </div>
