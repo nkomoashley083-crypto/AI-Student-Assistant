@@ -86,14 +86,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "AI-powered platform helping university students study smarter, communicate professionally, and prepare for internships and graduate careers.",
       },
       { name: "author", content: "AI Student Assistant" },
-      { property: "og:title", content: "AI Student Assistant" },
+      { property: "og:title", content: "AI Student Assistant — Study, Communicate, Get Hired" },
       {
         property: "og:description",
         content:
-          "Study smarter, communicate professionally, and prepare for internships with your AI Student Assistant.",
+          "AI-powered platform helping university students study smarter, communicate professionally, and prepare for internships and graduate careers.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "AI Student Assistant — Study, Communicate, Get Hired" },
+      { name: "twitter:description", content: "AI-powered platform helping university students study smarter, communicate professionally, and prepare for internships and graduate careers." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f7fc893d-8643-4ede-b437-e5487a4aacfd/id-preview-134039d1--680e7704-3674-478c-a48b-99b9bf15543b.lovable.app-1783575913246.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f7fc893d-8643-4ede-b437-e5487a4aacfd/id-preview-134039d1--680e7704-3674-478c-a48b-99b9bf15543b.lovable.app-1783575913246.png" },
     ],
     links: [
       {
