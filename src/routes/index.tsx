@@ -61,11 +61,8 @@ function Landing() {
             <Button variant="ghost" size="icon" onClick={toggle} aria-label="Toggle theme">
               {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </Button>
-            <Button asChild variant="ghost" className="hidden sm:inline-flex">
-              <Link to="/auth">Sign in</Link>
-            </Button>
             <Button asChild className="bg-gradient-primary shadow-soft">
-              <Link to="/auth">Get started</Link>
+              <Link to="/dashboard">Open app</Link>
             </Button>
           </div>
         </div>
